@@ -2,14 +2,14 @@
 %define upstream_version 0.1.3
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	5
 
 Summary:	Convert file to different encoding in Padre
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Padre/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Padre-Plugin-Encode
+Source0:	https://cpan.metacpan.org/authors/id/K/KE/KEEDI/Padre-Plugin-Encode-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
